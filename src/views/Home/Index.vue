@@ -1,13 +1,17 @@
 <template>
-  <div>
-      Hello From home
-  </div>
+ <section id="home">
+   <showcase />
+ </section>
 </template>
 
 <script>
-export default {
+  export default {
+    name: 'Home',
+    components: {
+      Showcase: () => import('./Showcase'),
 
-}
+    },
+  }
 </script>
 
 <style>

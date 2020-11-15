@@ -66,11 +66,7 @@ export default {
 </script>
 
 <style lang="scss">
-#footer {
-  @media screen and (min-width: 960px) {
-    margin-top: 200px;
-  }
-}
+
 
 .social {
   a {

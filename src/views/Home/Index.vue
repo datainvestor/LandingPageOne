@@ -1,6 +1,9 @@
 <template>
  <section id="home">
    <showcase />
+   <stats />
+   <cli />
+   <cloud />
  </section>
 </template>
 
@@ -9,7 +12,9 @@
     name: 'Home',
     components: {
       Showcase: () => import('./Showcase'),
-
+      Stats: () => import('./Stats'),
+      Cli: () => import('./Cli'),
+      Cloud: () => import('./Cloud')
     },
   }
 </script>

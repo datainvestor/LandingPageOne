@@ -4,6 +4,7 @@
    <stats />
    <cli />
    <cloud />
+   <languages />
  </section>
 </template>
 
@@ -14,7 +15,8 @@
       Showcase: () => import('./Showcase'),
       Stats: () => import('./Stats'),
       Cli: () => import('./Cli'),
-      Cloud: () => import('./Cloud')
+      Cloud: () => import('./Cloud'),
+      Languages: () => import('./Languages')
     },
   }
 </script>

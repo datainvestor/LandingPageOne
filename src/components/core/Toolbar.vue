@@ -1,10 +1,11 @@
 <template>
-    <v-app-bar
+    <v-toolbar
     id="core-toolbar"
     color="#047aed"
     flat
- :height="getHeight"
+    :height="getHeight"
     app
+    elevate-on-scroll
   >
       <v-row  style="margin:0 auto; max-width:1100px;" align="center">
            <v-col class="pa-0 d-flex" :class="{'justify-center': $vuetify.breakpoint.smAndDown}" cols="12" md="9" >
@@ -30,7 +31,7 @@
 </div>
 </v-col>
       </v-row>
-  </v-app-bar>
+  </v-toolbar>
 </template>
 
 <script>
